@@ -7,7 +7,7 @@ spec:
     matchLabels:
       app: helloworld
   replicas: 1 # tells deployment to run 1 pods matching the template
-  template: # create pods using pod definition in this template
+  template: # create pods using pod definition in this template to show diff
     metadata:
       labels:
         app: helloworld
